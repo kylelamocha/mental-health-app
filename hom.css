@@ -21,28 +21,24 @@
 }
 
 .navbar .nav-links{
-    padding: 14px;
     display: inline;
     float: right;
     font-size: 18px;
 }
-.navbar .nav-links{
+.navbar .nav-links .loginBtn{
     display: inline-block;
-    padding: 8px 15px;
+    padding: 5px 15px;
     margin-left: 20px;
     font-size: 18px;
-    color: #0a4c88;
+    color: white;
 }
 .navbar .loginBtn{
     color: white;
     background: rgba(0, 173, 181, 0.8);
-    display: inline-block; 
-    padding: 10px 20px;
     font-family: Assistant, sans-serif;
     cursor: pointer;
     border: none;
     border-radius: 50px;
-    font-size: 18px;
 }
 .navbar .loginBtn:hover{
     background:#0a4c88;
