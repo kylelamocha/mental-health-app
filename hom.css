@@ -4,6 +4,13 @@ body{
     padding: 0;
     background-color: #ABCDEF;
 }
-.container-fluid{
+/*.navbar-custom{
     background-color: white;
+}*/
+.navbar-nav a{
+    font-size: 17px;
 }
+.navbar-nav a:hover{
+  color: gray !important;
+}
+
