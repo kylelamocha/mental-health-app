@@ -23,22 +23,20 @@
 .navbar .nav-links{
     display: inline;
     float: right;
-    font-size: 18px;
+    font-size: 19px;
 }
 .navbar .nav-links .loginBtn{
     display: inline-block;
-    padding: 5px 15px;
+    padding: 8px 15px;
     margin-left: 20px;
-    font-size: 18px;
+    font-size: 19px;
     color: white;
-}
-.navbar .loginBtn{
     background: rgba(0, 173, 181, 0.8);
     font-family: Assistant, sans-serif;
-    cursor: pointer;
     border: none;
     border-radius: 50px;
 }
+
 .navbar .loginBtn:hover{
     background:#0a4c88;
 }
@@ -76,7 +74,7 @@
       border-top: 3px solid #eee;
 }
     .navbar .nav-btn label:hover, .navbar #nav-check:checked{
-    cursor: pointer;
+    background-color: #ABCDEF;
 }
     .navbar .nav-links{
       position: absolute;
