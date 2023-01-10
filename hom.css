@@ -11,6 +11,9 @@ body{
     font-size: 17px;
 }
 .navbar-nav a:hover{
-  color: gray !important;
+  color: darkgray !important;
 }
+/*.btn{
+  background-color: lightcyan !important;
+}*/
 
