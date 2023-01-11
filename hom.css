@@ -39,6 +39,22 @@ a:focus {
   color: black;
   transition: all 0.3s;
 }
+/*searchbar*/
+.has-search .form-control {
+  width: 150px;
+}
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 260px;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
 #sidebar.active {
   margin-left: -250px;
 }
