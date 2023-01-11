@@ -51,7 +51,7 @@ a:focus {
   position: absolute;
   z-index: 2;
   display: block;
-  width: 390px;
+  width: 410px;
   height: 2.375rem;
   line-height: 2.375rem;
   text-align: center;
@@ -91,7 +91,7 @@ a[data-toggle="collapse"] {
 ul ul a {
   font-size: 17px !important;
   padding-left: 30px !important;
-  background: #caf0f8;
+  background: gainsboro;
 }
 /*ul.CTAs a {
   text-align: center;
