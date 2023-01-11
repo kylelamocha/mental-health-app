@@ -52,7 +52,7 @@ a:focus {
 }
 #sidebar ul li a {
   padding: 15px;
-  font-size: 1.1em;
+  font-size: 17px;
   display: block;
 }
 #sidebar ul li a:hover {
@@ -61,25 +61,25 @@ a:focus {
 a[data-toggle="collapse"] {
   position: relative;
 }
-.dropdown-toggle::after {
+/*.dropdown-toggle::after {
   display: block;
   position: absolute;
   top: 50%;
   right: 100px;
   transform: translateY(-50%);
-}
+}*/
 ul ul a {
   font-size: 19px !important;
   padding-left: 30px !important;
   background: #6d7fcc;
 }
-ul.CTAs a {
+/*ul.CTAs a {
   text-align: center;
   font-size: 0.9em !important;
   display: block;
   border-radius: 5px;
   margin-bottom: 5px;
-}
+}*/
 #content {
   width: 100%;
   padding: 20px;
