@@ -8,10 +8,19 @@ body{
     -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
-  }
-  .navbar-nav a{
+}
+.navbar-nav a{
       font-size: 17px;
-  }
-  .navbar-nav a:hover{
+}
+.navbar-nav a:hover{
     color: darkgray !important;
-  }
+}
+.bg-image{
+    background-size: cover
+}
+.h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
