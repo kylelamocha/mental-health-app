@@ -15,14 +15,14 @@ body{
 .navbar-nav a:hover{
     color: darkgray !important;
 }
-.bg{
+/*.bg{
     padding-top:10px;
     background-image: url('https://i.ibb.co/q5yvBGQ/Craigslist-2.png'); 
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center;
     height: 100vh;
-}
+}*/
 /*.h1{
     font-size: 2.625em;
     font-weight: 700;
