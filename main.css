@@ -21,7 +21,7 @@ body{
     background-image: url('https://i.ibb.co/F5DRsJW/Craigslist-2-1.png%27'); 
     background-repeat: no-repeat; 
     background-size: contain; 
-    height: 900px;
+    min-height: 98vh;
 }
 .h1{
     font-size: 40px;
@@ -35,6 +35,10 @@ body{
     text-shadow: 2px 2px 2px #ABCDEF;
     padding-top: 300px;
 }
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
 
 /*.color-overlay{
     position: absolute;
