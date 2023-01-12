@@ -16,7 +16,7 @@ body{
     color: darkgray !important;
 }
 .bg{
-    margin-top:67px;
+    padding-top:10px;
     background-image: url('https://i.ibb.co/q5yvBGQ/Craigslist-2.png'); 
     background-repeat: no-repeat; 
     background-size: cover; 
