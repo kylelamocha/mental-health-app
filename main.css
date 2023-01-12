@@ -15,10 +15,8 @@ body{
 .navbar-nav a:hover{
     color: darkgray !important;
 }
-.bg{
-    background-size: cover; 
-    background-position: center;
-    background-repeat: no-repeat;
+.bg-img{
+   height: 50vh;
 }
 /*.h1{
     font-size: 2.625em;
