@@ -40,8 +40,12 @@ body{
       font-size: 30px;
     }
   }
-/*dropdown*/
-a[data-toggle="collapse"] {
-    position: relative;
+/*dropdown btn*/
+.dropdown-menu{
+    position: absolute;
+    top: 90%; /* Bottom of button */
+    right: 0;
+    margin-left: -100px; 
 }
+
 
