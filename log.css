@@ -1,4 +1,7 @@
+@import "https://fonts.googleapis.com/css?family=Assistant:400,700";
 body{
+    margin: 0;
+    padding: 0;
     background: #ABCDEF;
     font-family: Assistant, sans-serif;
 }
