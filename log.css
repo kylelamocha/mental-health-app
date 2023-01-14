@@ -9,6 +9,12 @@ body{
   background: #ABCDEF;
   overflow: hidden;
 }
+.logo{
+    display: block;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
 ::selection{
   background: rgba(26,188,156,0.3);
 }
