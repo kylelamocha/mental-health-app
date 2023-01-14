@@ -33,7 +33,7 @@ body{
     margin-bottom: 0.571em;
     color: #006a89;
     text-shadow: 2px 2px 2px #ABCDEF;
-    padding-top: 250px;
+    padding-top: 200px;
 }
 @media (max-width: 1199.98px) {
     .h1{
@@ -43,9 +43,17 @@ body{
 /*dropdown btn*/
 .dropdown-menu{
     position: absolute;
-    top: 90%; /* Bottom of button */
+    top: 90%; 
     right: 0;
     margin-left: -100px; 
 }
-
+.btn:hover{
+    background-color: #006a89 !important;
+}
+@media (max-width: 768px) {
+    .dropdown-menu{
+        margin-left: 2px; 
+        top: 100%; 
+    }
+}
 
