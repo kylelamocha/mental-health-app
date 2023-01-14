@@ -82,30 +82,32 @@ a:focus {
 a[data-toggle="collapse"] {
   position: relative;
 }
-/*.dropdown-toggle::after {
-  display: block;
-  position: absolute;
-  top: 50%;
-  right: 100px;
-  transform: translateY(-50%);
-}*/
 ul ul a {
   font-size: 17px !important;
   padding-left: 30px !important;
   background: gainsboro;
 }
-/*ul.CTAs a {
-  text-align: center;
-  font-size: 0.9em !important;
-  display: block;
-  border-radius: 5px;
-  margin-bottom: 5px;
-}*/
 #content {
   width: 100%;
   padding: 20px;
   min-height: 100vh;
   transition: all 0.3s;
+}
+/*dropdown*/
+.dropdown-menu{
+  position: absolute;
+  top: 90%; 
+  right: 0;
+  margin-left: -100px; 
+}
+.btn:hover{
+  background-color: #006a89 !important;
+}
+@media (max-width: 768px) {
+  .dropdown-menu{
+      margin-left: 2px; 
+      top: 100%; 
+  }
 }
 @media (max-width: 768px) {
   #sidebar {
