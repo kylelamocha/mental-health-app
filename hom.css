@@ -109,6 +109,21 @@ ul ul a {
       top: 100%; 
   }
 }
+@media (max-width: 800px) {
+  .dropdown-menu{
+      position: relative;
+      margin-left: 2px; 
+      top: 100%; 
+  }
+}
+@media (max-width: 985px) {
+  .dropdown-menu{
+      position: relative;
+      margin-left: 5px; 
+      top: 100%; 
+  }
+}
+/*sidebar*/
 @media (max-width: 768px) {
   #sidebar {
       margin-left: -250px;

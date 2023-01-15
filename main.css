@@ -5,7 +5,7 @@ body{
     padding: 0;
 }
 /*navbar*/
-.navbar {
+.navbar{
     -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px #999;
@@ -21,21 +21,18 @@ body{
     background-image: url('https://i.ibb.co/ZNDpQGH/Craigslist-2-2.png'); 
     background-repeat: no-repeat; 
     background-size: contain; 
-    height: 98vh;
+    height: 100vh;
 }
 .h1{
     font-size: 50px;
-    width: 100%;
-    height: 100%;
+    padding-top: 200px;
     font-weight: bold;
     text-align: center;
     letter-spacing: -0.03em;
-    margin-bottom: 0.571em;
     color: #006a89;
     text-shadow: 2px 2px 2px #ABCDEF;
-    padding-top: 200px;
 }
-@media (max-width: 1199.98px) {
+@media (max-width: 768px) {
     .h1{
       font-size: 30px;
     }
@@ -52,8 +49,24 @@ body{
 }
 @media (max-width: 768px) {
     .dropdown-menu{
+        position: relative;
         margin-left: 2px; 
         top: 100%; 
     }
 }
+@media (max-width: 800px) {
+    .dropdown-menu{
+        position: relative;
+        margin-left: 2px; 
+        top: 100%; 
+    }
+}
+@media (max-width: 985px) {
+    .dropdown-menu{
+        position: relative;
+        margin-left: 5px; 
+        top: 100%; 
+    }
+}
+
 
