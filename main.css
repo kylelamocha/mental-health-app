@@ -39,6 +39,11 @@ h1{
    color: #006a89;
    text-shadow: 2px 2px 2px #ABCDEF;
 }
+@media (max-width: 768px) {
+    h1{
+      font-size: 30px;
+    }
+}
 /*.h1{
     font-size: 50px;
     font-weight: bold;
