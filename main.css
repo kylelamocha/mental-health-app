@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Assistant:400,700");
-body{
+*{
     font-family: Assistant, sans-serif;
+}
+body{
     margin: 0;
     padding: 0;
 }
@@ -16,45 +18,12 @@ body{
 .navbar-nav a:hover{
     color: darkgray !important;
 }
-/*bg image */
-/*.bg-img{
-    display: block;
-    background-image: url('https://i.ibb.co/RhccWrh/Craigslist-2-3.png'); 
-    background-repeat: no-repeat; 
-    background-size: contain;
-    background-position:2px 0px;
-    height: 95vh;
+/*carousel responsive*/
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
 }
-.text-box {
-    position: absolute;    
-    height: 100%;
-    text-align: center;    
-    width: 100%;
-}
-h1{
-   padding-top: 100px;
-   display: inline-block;
-   font-size: 65px;
-   font-weight: bold;
-   letter-spacing: -0.03em;
-   color: #006a89;
-   text-shadow: 2px 2px 2px #ABCDEF;
-}
-@media (max-width: 468px) {
-    h1{
-      font-size: 20px;
-    }
-}
-@media (max-width: 985px) {
-    h1{
-        font-size: 30px;
-      }
-}
-@media (max-width: 1119px) {
-    h1{
-        font-size: 30px;
-      }
-}*/
 /*dropdown menu*/
 .dropdown-menu{
     position: absolute;
