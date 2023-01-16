@@ -16,13 +16,14 @@ body{
 .navbar-nav a:hover{
     color: darkgray !important;
 }
-/*bg image*/
-.bg-img{
+/*bg image */
+/*.bg-img{
     display: block;
     background-image: url('https://i.ibb.co/RhccWrh/Craigslist-2-3.png'); 
     background-repeat: no-repeat; 
-    background-size: contain; 
-    height: 100vh;
+    background-size: contain;
+    background-position:2px 0px;
+    height: 95vh;
 }
 .text-box {
     position: absolute;    
@@ -53,19 +54,6 @@ h1{
     h1{
         font-size: 30px;
       }
-}
-/*.h1{
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-    letter-spacing: -0.03em;
-    color: #006a89;
-    text-shadow: 2px 2px 2px #ABCDEF;
-}
-@media (max-width: 768px) {
-    .h1{
-      font-size: 30px;
-    }
 }*/
 /*dropdown menu*/
 .dropdown-menu{
