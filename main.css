@@ -55,6 +55,11 @@ body{
         top: 100%; 
     }
 }
+/*border
+p.outset{
+    padding: 10px;
+    border-style: outset;
+}*/
 /*image gallery */
 .responsive {
     padding: 0 6px;
