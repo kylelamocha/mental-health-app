@@ -55,12 +55,12 @@ body{
         top: 100%; 
     }
 }
-/*border
-p.outset{
-    padding: 10px;
-    border-style: outset;
-}*/
 /*image gallery */
+.img-gal{
+    padding: 10px;
+    border-radius: 2px;
+}
+
 .responsive {
     padding: 0 6px;
     float: left;
@@ -96,6 +96,14 @@ div.desc {
     display: table;
     clear: both;
 }
+/*about section*/
+.about-section {
+    margin-top: 22%;
+    background-color: #ABCDEF;
+    padding: 50px;
+    text-align: center;
+    color: #006a89;
+  }
 
   
 
