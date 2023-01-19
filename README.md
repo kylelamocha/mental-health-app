@@ -8,5 +8,6 @@
 #day 6 - revised login page, created register page
 #day 7 - break
 #day 8 - revised main home page, added carousel, img galler, and modal contact form
+#day 9,10,11,12 -  break
 *feel free to make changes*
 
