@@ -65,7 +65,7 @@ body{
     width: 24.99999%;
 }
 div.gallery{
-    margin: 15px;
+    margin: 10px;
     border: 1px solid #ccc;
 }
 div.gallery:hover {
@@ -95,13 +95,13 @@ div.desc {
     display: table;
     clear: both;
 }
-/*about section*/
+/*about section
 .about-section {
     background-color: #cbe1ef;
     padding: 50px;
     text-align: center;
     color: #006a89;
-  }
+  }*/
 
   
 
