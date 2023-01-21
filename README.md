@@ -10,7 +10,8 @@
 #day 8 - revised main home page, added carousel, img galler, and modal contact form
 #day 9,10,11 -  break
 #day 12 -  added new section on home main page
-#day 13, 14- break
+#day 13- break
+#day 14 - added features
 #day 15 - revised contact form
 *feel free to make changes*
 
