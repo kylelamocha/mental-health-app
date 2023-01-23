@@ -64,7 +64,7 @@
         <!--<p>Features</p>-->
         <li class="active">
             <li>
-                <a href="#">Meet our Therapists</a>
+                <a href="#" onclick="return show('Page2','Page1');">Meet our Therapists</a>
             </li>
         </li>  
             <li>
@@ -88,15 +88,14 @@
     </nav>
  
  <div id="content">
-    <div class="container-fluid">
+    <div class="container-fluid" id="page1">
         <button type="button" id="sidebarCollapse" class="btn btn-info">
          <i class="fas fa-align-left"></i>
          <span></span>
         </button>
         <h2>Welcome User!</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <h2>Meet our Therapists</h2>
- </div>
+    </div>
 
 </div>
 </div> 
@@ -148,6 +147,7 @@
 
   
   <script  src="hom.js"></script>
+  <script src ="home.js"></script>
   <script src="https://code.jquery.com/jquery.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
