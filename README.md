@@ -13,5 +13,6 @@
 #day 13- break
 #day 14 - added features
 #day 15 - revised contact form
+#day 16 - revised user home page
 *feel free to make changes*
 
