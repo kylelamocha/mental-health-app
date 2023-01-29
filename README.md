@@ -14,5 +14,6 @@
 #day 14 - added features
 #day 15 - revised contact form
 #day 16 - revised user home page
+#day 17-24 - learning frameworks
 *feel free to make changes*
 
